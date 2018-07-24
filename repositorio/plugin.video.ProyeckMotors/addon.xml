@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ProyeckMotors"
+       name="[COLOR deeppink]Proyeck[/COLOR][COLOR lime]Motors[/COLOR]"
+       version="v.1.8"
+       provider-name="Jose">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Hermano Pequeño de MagyckPi</summary>
+    <description>Jose 2017</description>
+    <platform>all</platform>
+	    <news>[B][COLOR deeppink]Nuevo Addon, v.1.5:[/B][/COLOR]
+        - [COLOR powderblue][B]F1[/B][/COLOR]
+          [COLOR yellow][B] Carreras Temporada 2017 completa [/B][/COLOR]
+        - [COLOR powderblue][B]MotoGP[/B][/COLOR]
+          [COLOR yellow][B] Carreras Tempoprada 217 completa [/B][/COLOR]
+		- [COLOR powderblue][B]INDYCAR[/B][/COLOR]
+		  [COLOR yellow] [B] Temporada 2017 / Ultimo GP: Detroit [/B][/COLOR]
+		- [COLOR powderblue][B]SBK[/B][/COLOR]
+		  [COLOR yellow] [B] gp Qatar / Gp Jerez [/B][/COLOR]
+		- [COLOR powderblue][B]DTM[/B][/COLOR]
+		  [COLOR yellow] [B] Temporada 2017 / Ultimo GP:Hockenheim [/B][/COLOR]
+		- [COLOR powderblue][B]RALLYCROSS[/B][/COLOR]
+		  [COLOR yellow] [B] Carreras Finales  [/B][/COLOR]
+		- [COLOR powderblue][B]NASCAR[/B][/COLOR]
+		  [COLOR yellow] [B] Cup Series  [/B][/COLOR]
+		- [COLOR powderblue]CAMPEONATO DE KARTING[/COLOR]
+		  [COLOR yellow] [B] Cup Series  [/B][/COLOR]
+		- [COLOR powderblue][B]CANALES ARENAVISION[/B][/COLOR]
+		 
+    </news>
+  </extension>
+</addon>
