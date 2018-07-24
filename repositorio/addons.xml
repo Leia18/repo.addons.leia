@@ -1185,7 +1185,7 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
     <extension point="xbmc.addon.repository" name="addons fuente leia ">
         <info>https://raw.githubusercontent.com/Leia18/repo.addons.leia/master/repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Leia18/repo.addons.leia/master/repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com//Leia18/repo.addons.leia/tree/master/repositorio</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Leia18/repo.addons.leia/master/repositorio</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>equipo leia</summary>
