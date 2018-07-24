@@ -940,7 +940,7 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
   </extension>
 </addon>
 
-<addon id="plugin.video.Tvchopo Kids"
+<addon id="plugin.video.Tvchopo.Kids"
        name="[COLOR pink]Tvchopo Kids[/COLOR]"
        version="0.0.1"
        provider-name="Tvchopo team">
