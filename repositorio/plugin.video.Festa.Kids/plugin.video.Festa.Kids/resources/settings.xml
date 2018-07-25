@@ -1,11 +1,11 @@
 ﻿<settings>		
   <category label="Información Festa.kids">
-       	<setting type="lsep" label="[COLOR lime]fecha de lanzamiento del Addon 15/03/2018[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
+       	<setting type="lsep" label="[COLOR lime]fecha de lanzamiento del Addon 17/09/2017[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
        
         
-		<setting type="lsep" label="[COLOR lime]Email:[/COLOR] addonfesta@gmail.com" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
+		<setting type="lsep" label="[COLOR lime]Email:[/COLOR] addonFesta.kids@gmail.com" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
 	
-		<setting type="lsep" label="[COLOR aqua]Grupo Telegram:[/COLOR] @addonfesta" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
+		<setting type="lsep" label="[COLOR aqua]Grupo Telegram:[/COLOR] @addonFesta.kids" option="close" action="RunPlugin(plugin://plugin.video.Festa.kids/?mode=7)" />
  </category>
 		
   <category label="Configuración General">
