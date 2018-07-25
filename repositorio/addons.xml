@@ -68,6 +68,28 @@
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.animego"
+  version="1.0.5"
+  name="animego"
+  provider-name="Dknight">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.urlresolver"  version="0.0.1"/>
+		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>animego</summary>
+    <description>Watch anime on animego</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Apolo"
        name="Apolo"
        version="0.0.2"
@@ -184,6 +206,72 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.b99tv_gw" name="B99TV" version="0.0.3" provider-name="Dandymedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<description lang="en">Cartoons from B99.TV</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bennu" name="Bennu" version="17.10.5" provider-name="Bennu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+        <import addon="repository.colossus" />
+		<import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.covenant" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bennu</summary>
+		<description lang="en">We Rise From The Ashes</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>release</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.binkytv" name="Binky TV" version="1.1.5" provider-name="Dandymedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="0.0.1"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tots TV and Learning</summary>
+    <description lang="en">Channels for kids from Youtube.</description>
+    <platform>all</platform>
+    <forum>sfsfsfsfsf</forum>
+    <website>fdssfs</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
        version="0.0.3"
@@ -213,6 +301,21 @@
     <summary>BlackGhost Addon</summary>
     <description>
     </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -259,6 +362,101 @@
         <fanart>fanart.jpg</fanart>
 		</assets>
        </extension>
+</addon>
+
+<addon id="plugin.video.colombiatv"
+       name="ColombiaTV"
+       version="1.5.0"
+       provider-name="Wiiego">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.1" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+    <import addon="script.module.simple.downloader" version="0.9.4" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">ColombiaTV</summary>
+    <description lang="en">ColombiaTV is the best addon to watch the main TV Channels and shows from Colombia</description>
+    <description lang="es">ColombiaTV es el mejor addon para ver los principales canales y programas de Televisión de Colombia</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.corban"
+       name="[COLOR yellow]Cor[/COLOR][COLOR blue]ba[COLOR red]n[/COLOR]"
+       version="0.1.0"
+       provider-name="KODIHESAN">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por KODIHESAN</summary>
+    <description>Este Addon esta Creado, para Películas, Series, Series Retro, Zona Infantiles, Anime,  y lo que pidas en Latino.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.covenant" version="1.1.34" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.colossus" />
+		<import addon="script.module.covenant" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
+		<description lang="he">[I]הדור החדש[/I][CR][CR][B]Covenant סרטים וסדרות[/B][CR][CR]ההרחבה הזו אינה חלק של Kodi Media Center. אנא אל תבקש עזרה עם ההרחבה זה מכל אחד מערוצי התמיכה הרשמיים של Kodi [CR][CR]. אין למחבר תוכן בהרחבה הזו והמחבר אינו אחראי לתוכן שנמצא.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.cristalazul"
@@ -316,6 +514,66 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.diskokosmiko"
+       name="DiskoKosmiko"
+       version="2.0.2"
+       provider-name="fightnight">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Coontenidos de DiskoKosmiko en Kodi</summary>
+        <description>Todos los contenidos de la comunidad DiskoKosmiko en Kodi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.disneyjunior" name="Disney Junior" version="1.3.1" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream from disney junior kids</summary>
+    <description lang="en">Stream from disney junior kids</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exodustv" name="[B][COLOR cyan]EXODUS[/COLOR] [COLOR blue]TV[/COLOR][/B]" version="4.0.5" provider-name="Legiontv">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" version="4.0.05" />
+		<import addon="script.module.liveresolver" version="0.1.49" />
+		<import addon="script.video.F4mProxy"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodustv.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">Hola, LEGIONTV no se responsabiliza por el contenido o la confiabilidad de los feeds. LEGIONTV No aloja ninguno de los feeds o Streams. La mayor parte del código de este complemento se tomó de muchos otros complementos, pero se utiliza bajo la GNU GENERAL PUBLIC LICENCE Version 2, junio de 1991. Recuerde que este es un complemento gratuito de terceros, ¡así que si algo no funciona! ¡Es gratis! Hice este complemento como hobby. No como un servicio para nadie, no cobro por ello y no debería ser tratado como tal. Si observa alguna forma de infracción, póngase en contacto de inmediato con los propietarios de los archivos multimedia o los sitios host. LEGIONTV no es una parte oficial del reproductor multimedia que está ejecutando, y por lo tanto no debe ser mencionado dentro de los canales de soporte oficiales, este complemento no tiene nada que ver con el reproductor multimedia ni con el uso previsto, es simplemente un complemento de terceros. que se ha agregado a su sistema o que ha instalado libremente.</disclaimer>
+		<platform>all</platform>
+		<forum>-</forum>
+		<website>-</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screen1.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.Explora"
        name="Explora"
        version="1.3.0"
@@ -352,6 +610,42 @@
         <description></description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.fantastic" version="2.4" name="Fantastic" provider-name="Firestickplusman">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.fantastic" />
+		<import addon="script.fantastic.artwork" version="1.0.0" />
+		<import addon="script.fantastic.metadata" version="0.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="fantastic.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">fantastic</summary>
+		<description lang="en">[COLOR blue]A New Fantastic Movies and TV. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found[/COLOR].</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.festa"
@@ -429,6 +723,93 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
   </extension>
 </addon>
 
+<addon id="plugin.video.firecat" name="Firecat" version="3.0" provider-name="ukodi">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.firecat.net" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">firecat</summary>
+      <summary lang="he">Jen</summary>
+      <description lang="en">ukodidev</description>
+      <description lang="he"></description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="he"></disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.freestudios" name="[B][COLOR red]FREEWORLD[/COLOR] [COLOR white]STUDIOS[/COLOR][/B]" version="4.0.5" provider-name="Freeworld">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" version="4.0.05" />
+		<import addon="script.module.liveresolver" version="0.1.49" />
+		<import addon="script.video.F4mProxy"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="freestudios.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">Hola, FREEWORLDSTUDIOS no se responsabiliza por el contenido o la confiabilidad de los feeds. LEGIONTV No aloja ninguno de los feeds o Streams. La mayor parte del código de este complemento se tomó de muchos otros complementos, pero se utiliza bajo la GNU GENERAL PUBLIC LICENCE Version 2, junio de 1991. Recuerde que este es un complemento gratuito de terceros, ¡así que si algo no funciona! ¡Es gratis! Hice este complemento como hobby. No como un servicio para nadie, no cobro por ello y no debería ser tratado como tal. Si observa alguna forma de infracción, póngase en contacto de inmediato con los propietarios de los archivos multimedia o los sitios host. LEGIONTV no es una parte oficial del reproductor multimedia que está ejecutando, y por lo tanto no debe ser mencionado dentro de los canales de soporte oficiales, este complemento no tiene nada que ver con el reproductor multimedia ni con el uso previsto, es simplemente un complemento de terceros. que se ha agregado a su sistema o que ha instalado libremente.</disclaimer>
+		<platform>all</platform>
+		<forum>-</forum>
+		<website>-</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screen1.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.goldenlatino"
+       name="[B][COLOR yellow]GOLD[/COLOR][COLOR white]DEN[/COLOR][COLOR dodgerblue]-LATINO[/COLOR][/B]"
+       version="2.6.7"
+       provider-name="Freeworld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR dodgerblue][B]goldenlatino Addon[/B][/COLOR] based on livestreamspro 2.6.7 by Shani</summary>
+    <description>[COLOR dodgerblue][B]goldenlatino Addon[/B][/COLOR] Permite a los usuarios reproducir y ver la mayoría de los videos, música, podcasts y otros archivos de medios digitales de los medios de almacenamiento locales y de red y de Internet.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.kodispaintv"
        name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
        version="2.2"
@@ -501,6 +882,50 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
     <description>para que disfruteis de los canales de tv</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.kratos" version="2018.03.04" name="The kratos" provider-name="The kratos">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.kratos.artwork" version="2017.11.12"/>
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" version="2.9.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.schism.common" version="2017.06.08"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.universalscrapers" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="kratos.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The kratos movies and TV shows</summary>
+        <description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
+        <disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
+        <platform>all</platform>
+        <news>Fork of Elysium/kratos credit to original Devs / Replaced more lists / Fixed channels / Added resolution to scraper dialog (thanks to Mr Blamo)</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.laola1free" name="Laola1.tv free" version="1.1.7" provider-name="stipx">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Laola1 Streaming (Free user only)</summary>
+		<description lang="en">Provides streams from laola1.tv</description>
+		<license>GNU General Public License, v2</license>
+	</extension>
 </addon>
 
 <addon id="plugin.video.LFP"
@@ -593,6 +1018,59 @@ em procura livre na internet.. Enjoy !![/COLOR]
 
 
     </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.LiveIPTV" name="Live IPTV" version="1.6" provider-name="Michal">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+</requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+
+ <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live IP TV </summary>
+    <description lang="en">Live IP TV</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website>https://github.com/ramicspa/kodi</website>
+    <email>ramicspa@gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.LosDuros"
+       name="Los Duros"
+       version="1.2"
+       provider-name="Choco IPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>Todo lo que esta en este addon es totalmente gratis y sacado de terceros en la web.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -702,6 +1180,38 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
+<addon id="plugin.video.megaocio"
+       name="[COLOR green]megaocio[/COLOR]"
+       version="1.0"
+       provider-name="Neoandaluz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>megaocio</summary>
+    <description>megaocio
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Mundo.Dragon.Ball"
        name="[COLOR orange]Mundo[/COLOR][COLOR yellow]Dragon[/COLOR][COLOR red]Ball[/COLOR]"
        version="0.2"
@@ -767,27 +1277,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
 
 </addon>
 
-<addon id="plugin.video.mundoinfantil"
-	name="[COLOR cornflowerblue]Mundo Infantil[/COLOR]"
-	version="1.2"
-	provider-name="j.ruiz">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR white]Contenido para niños de YouTube[/COLOR]</summary>
-    <description lang="en">[COLOR white]Todo el contenido por el addon es de YouTube, todas las actualizaciones y cambios seran publicadas en grupo de KODI PR y mi pagina de Facebook, les invito a unirse para que asi obtengan siempre la ultima version actualizada del addon. https://www.facebook.com/colussus.xmen[/COLOR]</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.now_music" name="Now Thats What I Call Music"	version="5.5.9"	provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -805,6 +1294,32 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
+</addon>
+
+<addon id="plugin.video.oculus" name="Oculus" version="2.0" provider-name="Trademark">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" version="5.0.08" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">MOVIES-TV SHOWS Powered By TMDB *TRADEMARK TMB</summary>
+	  <description lang="en">MOVIES-TV SHOWS Powered By TMDB *TRADEMARK TMB</description>
+	  <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <platform>all</platform>
+        <website>http://tmbkodi.com</website>
+        <video_guide></video_guide>
+    </extension>
 </addon>
 
 <addon id="plugin.video.p2p-streams"
@@ -840,6 +1355,38 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
+<addon id="plugin.video.placenta" version="1.1.3" name="Placenta" provider-name="Team Afterbirth">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.placenta" />
+		<import addon="script.placenta.artwork" version="1.0.0" />
+		<import addon="script.placenta.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Placenta</summary>
+		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
+		<platform>all</platform>
+		<license>Beerware rev. 42</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.Planeta"
        name="Planeta"
        version="1.1.1"
@@ -872,6 +1419,35 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
+<addon id="plugin.video.playground" name="ThePlayground" version="1.5" provider-name="1-COOL GUY ">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">an addon for all to enjoy</summary>
+      <summary lang="he">הרחבת וידאו Jen</summary>
+      <description lang="en">The Playground is a kids/teens and adults addon to enjoy. bring out the kid in you</description>
+      <description lang="he">האחות הקטנה של בוב</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
 <addon id="plugin.video.plexus-streams"
        name="Plexus-Streams"
        version="1.0.18b"
@@ -894,6 +1470,39 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.poseidon" version="1.2.7" name=" Poseidon" provider-name="FUCK LOCKDOWN AND CYPHER">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.poseidon.artwork" version="1.0.0" />
+		<import addon="script.poseidon.metadata" version="1.0.0" />
+                <import addon="script.module.urlresolver"/>
+                <import addon="script.module.metahandler"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.beautifulsoup"/>
+                <import addon="script.module.schism.common"/>
+                <import addon="script.module.futures"/>
+                <import addon="script.module.nanscrapers" version="0.5.5" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="poseidon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Poseidon</summary>
+		<description lang="en">The Ultimate Movie, TV Show, and Playlist Add-on</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.Princess"
@@ -931,6 +1540,46 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <description>Julio 2017</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.ProjectCypher" name="[B][COLOR cyan]Project[/COLOR] [COLOR blue]Cypher[/COLOR][/B]" version="4.0.5" provider-name="Cypher">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.ProjectCypher.artwork" />
+		<import addon="script.ProjectCypher.metadata" />
+		<import addon="script.module.sportsvod" />
+		<import addon="script.cypher.pairwith" />
+        <import addon="script.cypher.pairwith.launcher" />
+		<import addon="script.cypherstream" />
+		<import addon="script.module.cypherswift" />
+		<import addon="script.module.cypheruktvnow" />
+		<import addon="script.module.cyphermobdro" />
+		<import addon="script.module.cyphernettv" />
+		<import addon="script.module.laola1free" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" version="4.0.05" />
+		<import addon="script.module.liveresolver" version="0.1.49" />
+		<import addon="script.video.F4mProxy"/>
+		<import addon="plugin.video.f4mTester" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="projectcypher.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Hey One and All, Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991. Please remember this is a free 3rd party addon so if something doesn't work! Its FREE! I Made this addon as a hobby Not as a service to anyone and i do not charge for it and shouldn't be treated as such. If you see any form of infringements, please contact appropriate media file owners or host sites immediately. Cypher Media is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a 3rd party plugin which has been added to your system or that you have freely installed.</summary>
+    <description lang="en">Hey One and All, Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991. Please remember this is a free 3rd party addon so if something doesn't work! Its FREE! I Made this addon as a hobby Not as a service to anyone and i do not charge for it and shouldn't be treated as such. If you see any form of infringements, please contact appropriate media file owners or host sites immediately. Cypher Media is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a 3rd party plugin which has been added to your system or that you have freely installed.</description>
+	<disclaimer lang="en">Hey One and All, Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991. Please remember this is a free 3rd party addon so if something doesn't work! Its FREE! I Made this addon as a hobby Not as a service to anyone and i do not charge for it and shouldn't be treated as such. If you see any form of infringements, please contact appropriate media file owners or host sites immediately. Cypher Media is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a 3rd party plugin which has been added to your system or that you have freely installed.</disclaimer>
+		<platform>all</platform>
+		<forum>-</forum>
+		<website>-</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screen1.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.ProyeckMotors"
@@ -980,6 +1629,37 @@ em procura livre na internet.. Enjoy !![/COLOR]
 		- [COLOR powderblue][B]CANALES ARENAVISION[/B][/COLOR]
 
     </news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Redemption"
+       name="Redemption"
+       version="1.2"
+       provider-name="Redemption">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Redemption</summary>
+    <description lang="en">AllinOne</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1120,6 +1800,37 @@ https://t.me/sinbarreras
   </extension>
 </addon>
 
+<addon id="plugin.video.SrRegio1.2.2"
+       name="Sr Regio"
+       version="1.0"
+       provider-name="eedgaarmtz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Contenido Latino - SrRegio</summary>
+    <description>Disfruta de todo el contenido latino que te ofrece Sr Regio.
+	                   facebook.com/SrRegio
+					   Telegram: @SrRegio
+
+ </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tacones"
        name="[COLOR red]TACONES[/COLOR]"
        version="1.1"
@@ -1246,6 +1957,30 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
   </extension>
 </addon>
 
+<addon id="plugin.video.tvone" name="tvOne" version="9" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvone11" name="tvOne11" version="8" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1267,6 +2002,103 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
     <website></website>
     <email></email>
     <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.uiptv"
+       name="Ultimate IPTV"
+       version="1.0.5"
+       provider-name="Whitecream">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Ultimate IPTV</summary>
+        <description lang="en">Access the IPTV lists from a blog. Daily new links.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.UniverseHD" name="[COLOR red]Universe[/COLOR][COLOR white]HD[/COLOR]" version="1.0" provider-name="Universe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Universe HD</summary>
+    <description lang="en">Movies To Watch For Non Real-Debrid Users.And It Works Even Better For Real Debrid Users. </description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.urbankingz" name="UrbanKingz" version="1.1" provider-name="The Real UrbanKingz">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.universalscrapers" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Urban</summary>
+        <description lang="en">The Kingz Of Urban Add-on {The Real UrbanKingz}</description>
+        <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.YANKIEFLIX.TV"
+       name="[COLOR gold]YANKIEFLIX.TV[/COLOR][COLOR gold] 6[/COLOR].[COLOR gold]0[/COLOR].[COLOR gold]3[/COLOR]"
+       version="6.0.4"
+       provider-name="YANKIEFLIX.TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por YANKIEFLIX.TV</summary>
+    <description>YANKIEFLIX.TV 2017</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
