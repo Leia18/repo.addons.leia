@@ -515,7 +515,7 @@ em procura livre na internet.. Enjoy !![/COLOR]
 
 <addon id="plugin.video.Mundo.Dragon.Ball"
        name="[COLOR orange]Mundo[/COLOR][COLOR yellow]Dragon[/COLOR][COLOR red]Ball[/COLOR]"
-       version="0.0.2"
+       version="0.2"
        provider-name="Dani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
