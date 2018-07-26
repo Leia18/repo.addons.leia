@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.JHG.MASTER.PREMIUM"
-       name="[COLOR red] JHG [COLOR yellow] MASTER [/COLOR][COLOR fuchsia] PREMIUM [/COLOR]"
-       version="1.0"
-       provider-name="JHG.MASTER">
+       name="[COLOR gold] El.Diablo [/COLOR]"
+       version="3.0.0"
+       provider-name="El.Diablo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -22,11 +22,15 @@
     <provides>video</provides>
   </extension>
   
- 
+ <extension point="xbmc.addon.repository" name="tvchoco Jose">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+    </extension>
 	
   <extension point="xbmc.addon.metadata">
-    <summary>JHG.MASTER</summary>
-    <description>para que disfruteis de los canales de tv</description>
+    <summary>Creado por JHG.MASTER.PREMIUM</summary>
+    <description>El.Diablo 2017</description>
     <platform>all</platform>
   </extension>
 </addon>

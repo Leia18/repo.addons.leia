@@ -1,12 +1,8 @@
-﻿<settings>		
-  <category label="Información El.Diablo">
-       	<setting type="lsep" label="[COLOR lime]Versión del Addon Creado 25/03/2018 [/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo/?mode=7)" />
-       		<setting type="lsep" label="[COLOR yellow]Grupo Telegram:[/COLOR] @@ElDiablo36" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo/?mode=7)" />
- </category>
-		
-  <category label="Configuración General">
-        <setting type="lsep" label="Para su buen funcionamiento pinchar en" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo/?mode=7)" />
-        <setting type="lsep" label="[COLOR red]POR DEFECTO[/COLOR] y luego en [COLOR red]OK[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo/?mode=7)" />
+﻿<settings>
+  		
+  <category label="El.Diablo">
+        <setting type="lsep" label="Para su buen funcionamiento pinchar en" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo MASTER/?mode=7)" />
+        <setting type="lsep" label="[COLOR red]POR DEFECTO[/COLOR] y luego en [COLOR red]OK[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.El.Diablo MASTER/?mode=7)" />
 		<setting id="ask_playlist_items" type="bool" label="Elegir Fuente de Video" default="true" visible="false"/>
 		<setting id="debug" type="bool" label="Enable Add-on Debugging" default="true" visible="false"/>
         <setting id="1080pquality" label="[COLOR lime]Mejorar calidad 1080p[/COLOR]" type="bool" default="true"/>
