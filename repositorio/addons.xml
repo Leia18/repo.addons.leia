@@ -955,9 +955,9 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
 </addon>
 
 <addon id="plugin.video.koditv"
-       name="[COLOR yellow]KO[COLOR orange]DI[/COLOR][COLOR fuchsia]TV[/COLOR]"
-       version="1.0"
-       provider-name="anonimo">
+       name="[COLOR lime]Kodi-[COLOR red]Tv[/COLOR]"
+       version="2.0"
+       provider-name="koditv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -977,11 +977,17 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
     <provides>video</provides>
   </extension>
 
-
+ <extension point="xbmc.addon.repository" name="koditv">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+    </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>anonimo</summary>
-    <description>para que disfruteis de los canales de tv</description>
+    <summary>Creado por equipo-koditv</summary>
+    <description>koditv  es un proyecto sin ánimo de lucro, no se aceptan donativos.
+Este complemento no aloja ningún contenido en servidores propios, todos los links que comparte pueden encontrarse libremente en la red.
+No nos hacemos responsables de la  distribución del mismo por parte de terceros.</description>
     <platform>all</platform>
   </extension>
 </addon>
